@@ -41,12 +41,13 @@ def func():
     count5+=1
     d1.append(i)
 
- print('CrimeType','ASSULT',"CrimeID 1430",count)
- print('CrimeType','ASSULT',"CrimeID 1420",count1)
- print('CrimeType','ROBBERY',"CrimeID 1610",count2)
- print('CrimeType','BREAK',"CrimeID 1430",count3)
- print('CrimeType','THEFT OF VEHICLE',"CrimeID 2135",count4)
- print('CrimeType','THEFT FROM VEHICLE',"CrimeID 2142",count5)
+ print('CrimeType','ASSULT',"CrimeID 1430",'Crime Count',count)
+ print('CrimeType','ASSULT',"CrimeID 1420",'Crime Count',count1)
+ print('CrimeType','ROBBERY',"CrimeID 1610",'Crime Count',count2)
+ print('CrimeType','BREAK',"CrimeID 1430",'Crime Count',count3)
+ print('CrimeType','THEFT OF VEHICLE',"CrimeID 2135",'Crime Count',count4)
+ print('CrimeType','THEFT FROM VEHICLE',"CrimeID 2142",'Crime Count',count5)
+
 func()
 
 
