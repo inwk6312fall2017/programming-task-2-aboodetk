@@ -26,10 +26,7 @@ def func():
    elif 'THEFT' in i:
     count3+=1
     d.append(i)
- print(a,count)
- print(b,count1)
- print(c,count2)
- print(d,count3)
+ print('ASSULT',count,"ROBBERY",count1,"BREAK",count2,"THEDT",count3)
 func()
 
 
